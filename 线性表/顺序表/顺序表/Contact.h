@@ -4,7 +4,7 @@
 #define TEL_MAX 11
 #define ADDR_MAX 100
 
-//前置声明
+//！！！！前置声明！！！！
 typedef struct SeqList contact;
 
 //用户数据(姓名，性别，年龄，地址，电话

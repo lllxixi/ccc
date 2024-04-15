@@ -2,6 +2,7 @@
 # include <stdio.h>
 # include<stdlib.h>
 # include <assert.h>
+#include"Contact.h"
 #define INIT_CAPACITY 4
 
 typedef int SLDataType;
@@ -25,3 +26,8 @@ void SLPushBack(SL* ps, SLDataType x);
 void SLPopBack(SL* ps);
 void SLPushFront(SL* ps, SLDataType x);
 void SLPopFront(SL* ps);
+
+//指定位置之前插入/删除数据
+void SLInsert(SL* ps, int pos, SLDataType x);
+void SLErase(SL* ps, int pos);
+int SLFind(SL* ps, SLDataType x);

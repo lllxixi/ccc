@@ -79,3 +79,13 @@ void SLPopFront(SL* ps)
 }
 
 
+//É¾³ýÖ¸¶¨Î»ÖÃ
+void SLErase(SL* ps, int pos) {
+	assert(ps);
+	assert(pos >= 0 && pos < ps->size);
+
+	for (int i = pos ; i < ps -> size - 1 ; i++ ) {
+		ps -> a[i] = ps -> a[i + 1];
+	}
+	ps->size--;
+}
