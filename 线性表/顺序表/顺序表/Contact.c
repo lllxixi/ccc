@@ -48,6 +48,6 @@ void DelContact(contact* con)
 		printf("没有该联系人！");
 		return;
 	}
-	SLErase(contact, find);
+	SLErase(&con, find);
 	printf("删除成功！");
 }

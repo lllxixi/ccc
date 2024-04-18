@@ -15,26 +15,10 @@ E:\BITE\ccc\线性表\顺序表\顺序表\Contact.c(26,10): warning C4473: “sc
 E:\BITE\ccc\线性表\顺序表\顺序表\Contact.c(26,10): message : 占位符和其参数预计 2 可变参数，但提供的却是 1 参数
 E:\BITE\ccc\线性表\顺序表\顺序表\Contact.c(26,10): message : 缺失的可变参数 2 为格式字符串“%s”所需
 E:\BITE\ccc\线性表\顺序表\顺序表\Contact.c(26,10): message : 此参数用作缓冲区大小
-E:\BITE\ccc\线性表\顺序表\顺序表\Contact.c(29,22): error C2440: “函数”: 无法从“PeoInfo”转换为“SLDataType”
-E:\BITE\ccc\线性表\顺序表\顺序表\Contact.c(29,18): warning C4024: “SLPushBack”: 形参和实参 2 的类型不同
 E:\BITE\ccc\线性表\顺序表\顺序表\Contact.c(32,5): error C2371: “FindContact”: 重定义；不同的基类型
 E:\BITE\ccc\线性表\顺序表\顺序表\Contact.h(30): message : 参见“FindContact”的声明
-E:\BITE\ccc\线性表\顺序表\顺序表\Contact.c(34,7): warning C4013: “strcmp”未定义；假设外部返回 int
-E:\BITE\ccc\线性表\顺序表\顺序表\Contact.c(34,30): error C2224: “.name”的左侧必须具有结构/联合类型
-E:\BITE\ccc\线性表\顺序表\顺序表\Contact.c(45,52): error C2065: “info”: 未声明的标识符
-E:\BITE\ccc\线性表\顺序表\顺序表\Contact.c(45,53): error C2224: “.name”的左侧必须具有结构/联合类型
-E:\BITE\ccc\线性表\顺序表\顺序表\Contact.c(45,9): warning C4473: “printf”: 没有为格式字符串传递足够的参数
-E:\BITE\ccc\线性表\顺序表\顺序表\Contact.c(45,9): message : 占位符和其参数预计 1 可变参数，但提供的却是 0 参数
-E:\BITE\ccc\线性表\顺序表\顺序表\Contact.c(45,9): message : 缺失的可变参数 1 为格式字符串“%s”所需
+E:\BITE\ccc\线性表\顺序表\顺序表\Contact.c(34,13): warning C4013: “strcmp”未定义；假设外部返回 int
 E:\BITE\ccc\线性表\顺序表\顺序表\Contact.c(46,30): warning C4020: “FindContact”: 实参太多
-E:\BITE\ccc\线性表\顺序表\顺序表\Contact.c(50,10): error C2275: “contact”: 应为表达式而不是类型
-E:\BITE\ccc\线性表\顺序表\顺序表\Contact.c(50,23): warning C4047: “函数”:“SL *”与“int”的间接级别不同
-E:\BITE\ccc\线性表\顺序表\顺序表\Contact.c(50,19): warning C4024: “SLErase”: 形参和实参 1 的类型不同
-E:\BITE\ccc\线性表\顺序表\顺序表\Contact.c(50,2): error C2198: “SLErase”: 用于调用的参数太少
+E:\BITE\ccc\线性表\顺序表\顺序表\Contact.c(51,14): warning C4047: “函数”:“SL *”与“contact **”的间接级别不同
+E:\BITE\ccc\线性表\顺序表\顺序表\Contact.c(51,10): warning C4024: “SLErase”: 形参和实参 1 的类型不同
 E:\BITE\ccc\线性表\顺序表\顺序表\Contact.c(46,6): error C2120: 对于所有类型“void”非法
-  SeqList.c
-E:\BITE\ccc\线性表\顺序表\顺序表\SeqList.c(28,1): warning C4029: 声明的形参表不同于定义
-E:\BITE\ccc\线性表\顺序表\顺序表\SeqList.c(75,3): warning C4013: “memmove”未定义；假设外部返回 int
-E:\BITE\ccc\线性表\顺序表\顺序表\SeqList.c(83,13): error C2065: “a”: 未声明的标识符
-E:\BITE\ccc\线性表\顺序表\顺序表\SeqList.c(83,15): error C2109: 下标要求数组或指针类型
-  正在生成代码...

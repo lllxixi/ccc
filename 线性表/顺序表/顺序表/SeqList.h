@@ -5,7 +5,7 @@
 #include"Contact.h"
 #define INIT_CAPACITY 4
 
-typedef int SLDataType;
+typedef PeoInfo SLDataType;
 // 动态顺序表 -- 按需申请
 typedef struct SeqList
 {
