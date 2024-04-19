@@ -29,7 +29,7 @@ void AddContact(contact* con) {
 	SLPushBack(con, info);
 }
 
-int FindContact(contact* con, char name[]) {
+int FindContact(contact* con, char name[NAME_MAX]) {
 	for (int i = 0; i < con->size; i++) {
 		if ( 0 == strcmp ( con -> a[i].name,name ) ) {
 			return i;
@@ -42,7 +42,8 @@ int FindContact(contact* con, char name[]) {
 void DelContact(contact* con)
 {
 	char name[NAME_MAX];
-	printf("请输入要删除的联系人：%s", name);
+	printf("请输入要删除的联系人：");
+	scanf_s("%s", name);
 	int find = FindContact(con, name);
 	if (find<0) {
 		printf("没有该联系人！");

@@ -15,10 +15,17 @@ E:\BITE\ccc\线性表\顺序表\顺序表\Contact.c(26,10): warning C4473: “sc
 E:\BITE\ccc\线性表\顺序表\顺序表\Contact.c(26,10): message : 占位符和其参数预计 2 可变参数，但提供的却是 1 参数
 E:\BITE\ccc\线性表\顺序表\顺序表\Contact.c(26,10): message : 缺失的可变参数 2 为格式字符串“%s”所需
 E:\BITE\ccc\线性表\顺序表\顺序表\Contact.c(26,10): message : 此参数用作缓冲区大小
-E:\BITE\ccc\线性表\顺序表\顺序表\Contact.c(32,5): error C2371: “FindContact”: 重定义；不同的基类型
-E:\BITE\ccc\线性表\顺序表\顺序表\Contact.h(30): message : 参见“FindContact”的声明
 E:\BITE\ccc\线性表\顺序表\顺序表\Contact.c(34,13): warning C4013: “strcmp”未定义；假设外部返回 int
-E:\BITE\ccc\线性表\顺序表\顺序表\Contact.c(46,30): warning C4020: “FindContact”: 实参太多
-E:\BITE\ccc\线性表\顺序表\顺序表\Contact.c(51,14): warning C4047: “函数”:“SL *”与“contact **”的间接级别不同
-E:\BITE\ccc\线性表\顺序表\顺序表\Contact.c(51,10): warning C4024: “SLErase”: 形参和实参 1 的类型不同
-E:\BITE\ccc\线性表\顺序表\顺序表\Contact.c(46,6): error C2120: 对于所有类型“void”非法
+E:\BITE\ccc\线性表\顺序表\顺序表\Contact.c(46,10): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+E:\BITE\ccc\线性表\顺序表\顺序表\Contact.c(46,10): message : 占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+E:\BITE\ccc\线性表\顺序表\顺序表\Contact.c(46,10): message : 缺失的可变参数 2 为格式字符串“%s”所需
+E:\BITE\ccc\线性表\顺序表\顺序表\Contact.c(46,10): message : 此参数用作缓冲区大小
+E:\BITE\ccc\线性表\顺序表\顺序表\Contact.c(52,14): warning C4047: “函数”:“SL *”与“contact **”的间接级别不同
+E:\BITE\ccc\线性表\顺序表\顺序表\Contact.c(52,10): warning C4024: “SLErase”: 形参和实参 1 的类型不同
+  SeqList.c
+E:\BITE\ccc\线性表\顺序表\顺序表\SeqList.c(21,10): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“SLDataType”
+E:\BITE\ccc\线性表\顺序表\顺序表\SeqList.c(28,1): warning C4029: 声明的形参表不同于定义
+E:\BITE\ccc\线性表\顺序表\顺序表\SeqList.c(75,3): warning C4013: “memmove”未定义；假设外部返回 int
+  test.c
+  正在生成代码...
+  顺序表.vcxproj -> E:\BITE\ccc\线性表\顺序表\x64\Debug\顺序表.exe

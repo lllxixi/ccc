@@ -1,7 +1,7 @@
 #pragma once
-#define NAME_MAX 100
+#define NAME_MAX 20
 #define SEX_MAX 4
-#define TEL_MAX 11
+#define TEL_MAX 13    // 有/0
 #define ADDR_MAX 100
 
 //！！！！前置声明！！！！
@@ -27,7 +27,7 @@ void DelContact(contact* con);
 //展示通讯录数据
 void ShowContact(contact* con);
 //查找通讯录数据
-void FindContact(contact* con);
+int FindContact(contact* con,char name[NAME_MAX]);
 //修改通讯录数据
 void ModifyContact(contact* con);
 //销毁通讯录数据

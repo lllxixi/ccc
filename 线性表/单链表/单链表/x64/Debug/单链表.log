@@ -1,0 +1,3 @@
+﻿  SList.c
+E:\BITE\ccc\线性表\单链表\单链表\SList.c(19): warning C4716: “SLnewNode”: 必须返回一个值
+  单链表.vcxproj -> E:\BITE\ccc\线性表\单链表\x64\Debug\单链表.exe
