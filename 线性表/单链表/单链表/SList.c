@@ -47,6 +47,7 @@ void SLPushFront(SLNode** pphead, SLDataType x) {
 
 //尾删
 void SLPopBack(SLNode** pphead) {
+    assert(*pphead);
     if (( * pphead)->next == NULL) {
         free(*pphead);
         *pphead = NULL;
@@ -64,3 +65,24 @@ void SLPopBack(SLNode** pphead) {
         prev->next = NULL;
     }
 }
+
+//头删
+void SLPopFront(SLNode** pphead) {
+    SLNode* prev = *pphead;  //prev是指向头指针pphead的指针
+    SLNode* ptail = *pphead;
+    //if ((*pphead)->next == NULL) {
+    //    free(*pphead);
+    //    *pphead = NULL;
+    //}
+    else {
+        prev = ptail;
+        ptail = prev->next;
+        free(prev);
+        pphead = ptail;
+    }
+}
+
+int a = 10;
+int* p = &a;
+
+*p = &p;

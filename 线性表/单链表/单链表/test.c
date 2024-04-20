@@ -34,7 +34,10 @@ int main(){
 	SLPushBack(&p, 7);
 	SLPrint(p);
 
-	SLPopBack(&p, 4);
+	SLPopBack(&p);
+	SLPrint(p);
+
+	SLPopFront(&p);
 	SLPrint(p);
 	return 0;
 }
