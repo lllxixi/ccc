@@ -17,10 +17,10 @@ void SLPrint(SLNode* phead);
 void SLPushBack(SLNode** pphead, SLDataType x);
 void SLPushFront(SLNode** pphead, SLDataType x);
 void SLPopBack(SLNode** pphead);
-//void SLPopFront(SLNode** pphead);
+void SLPopFront(SLNode** pphead);
 
-////查找
-//SLNode* SLFind(SLNode* phead, SLDataType x);
+//查找
+SLNode* SLFind(SLNode* phead, SLDataType x);
 ////在指定位置之前插入数据
 //void SLTInsert(SLTNode** pphead, SLTNode* pos, SLTDataType x);
 ////删除pos节点

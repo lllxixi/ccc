@@ -68,21 +68,28 @@ void SLPopBack(SLNode** pphead) {
 
 //头删
 void SLPopFront(SLNode** pphead) {
-    SLNode* prev = *pphead;  //prev是指向头指针pphead的指针
-    SLNode* ptail = *pphead;
-    //if ((*pphead)->next == NULL) {
-    //    free(*pphead);
-    //    *pphead = NULL;
-    //}
-    else {
-        prev = ptail;
-        ptail = prev->next;
-        free(prev);
-        pphead = ptail;
-    }
+    assert(*pphead);
+    SLNode* prev = *pphead;
+    *pphead = prev->next;//*pphead是因为我们要更新指向链表头部的指针，而不是改变指针本身的地址
+    free(prev);
+    prev = NULL;
 }
 
-int a = 10;
-int* p = &a;
+//查找
+//函数类型是SLNode ,所以要返回值  而void是空值
+SLNode* SLFind(SLNode* pphead, SLDataType x) {
+    SLNode* p = pphead;
+    while (p != NULL) {
+        if (p->data == x) {
+            printf("找到啦 >o< ~");
+            return p;
+        }
+        else {
+            p = p->next;
+        }
+    }
+    printf("没有该数据！！！");
+    return NULL;
+}
 
-*p = &p;
+//郑重的感谢冷澄宸女士为本次代码提供的大力支持！！

@@ -39,5 +39,7 @@ int main(){
 
 	SLPopFront(&p);
 	SLPrint(p);
+
+	SLFind(p, 1);//p是指针，&p是指针的地址
 	return 0;
 }

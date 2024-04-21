@@ -1,3 +1,2 @@
 ﻿  test.c
-E:\BITE\ccc\线性表\单链表\单链表\test.c(40,2): warning C4013: “SLPopFront”未定义；假设外部返回 int
   单链表.vcxproj -> E:\BITE\ccc\线性表\单链表\x64\Debug\单链表.exe
