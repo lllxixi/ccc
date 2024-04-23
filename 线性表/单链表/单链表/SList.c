@@ -93,3 +93,68 @@ SLNode* SLFind(SLNode* pphead, SLDataType x) {
 }
 
 //郑重的感谢冷澄宸女士为本次代码提供的大力支持！！
+
+//在指定位置之前插入数据
+
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef int SLTDataType;
+
+typedef struct SLTNode {
+    SLTDataType data;
+    struct SLTNode* next;
+} SLTNode;
+
+// Insert data x before the specified position in the linked list
+//void SLTInsert(SLTNode** pphead, SLTDataType x, int position) {
+//    SLTNode* pos = *pphead;
+//    SLTNode* newNode = (SLTNode*)malloc(sizeof(SLTNode));
+//    if (newNode == NULL) {
+//        printf("Memory allocation failed!\n");
+//        return;
+//    }
+//    newNode->data = x;
+//    newNode->next = NULL;
+//
+//    // Handle case where position is 0 (insert at the beginning)
+//    if (position == 0) {
+//        newNode->next = *pphead;
+//        *pphead = newNode;
+//        return;
+//    }
+//
+//    // Traverse the list to find the position
+//    int i = 0;
+//    while (pos != NULL && i < position - 1) {
+//        pos = pos->next;
+//        i++;
+//    }
+//
+//    // Check if specified position is valid
+//    if (pos == NULL || pos->next == NULL) {
+//        printf("Position %d is out of range!\n", position);
+//        free(newNode);
+//        return;
+//    }
+//
+//    // Insert the new node before the specified position
+//    newNode->next = pos->next;
+//    pos->next = newNode;
+//}
+//
+//// Function to print the
+
+
+void SLTInsert(SLTNode** pphead, SLTDataType x) {
+    SLNode* pos = *pphead;
+    //指定位置不在链表内，输出没有该位置
+    
+    scanf("%d", &n);
+    while (pos->next != NULL) {
+        if (pos->next == ) {
+            //a b ——a x b 
+
+        }
+    }
+}

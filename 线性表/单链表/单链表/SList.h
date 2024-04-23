@@ -21,8 +21,8 @@ void SLPopFront(SLNode** pphead);
 
 //查找
 SLNode* SLFind(SLNode* phead, SLDataType x);
-////在指定位置之前插入数据
-//void SLTInsert(SLTNode** pphead, SLTNode* pos, SLTDataType x);
+//在指定位置之前插入数据
+void SLTInsert(SLTNode** pphead, SLTNode* pos, SLTDataType x);
 ////删除pos节点
 //void SLTErase(SLTNode** pphead, SLTNode* pos);
 ////在指定位置之后插入数据
