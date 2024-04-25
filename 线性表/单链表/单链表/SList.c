@@ -96,9 +96,6 @@ SLNode* SLFind(SLNode* pphead, SLDataType x) {
 
 //在指定位置之前插入数据
 
-#include <stdio.h>
-#include <stdlib.h>
-
 typedef int SLTDataType;
 
 typedef struct SLTNode {
@@ -146,13 +143,14 @@ typedef struct SLTNode {
 //// Function to print the
 
 
+//在指定位置前插入    a b ——a x b 
 void SLTInsert(SLTNode** pphead, SLTDataType x) {
     SLNode* pos = *pphead;
-    //指定位置不在链表内，输出没有该位置
-    
+    int n = 0;
     scanf("%d", &n);
-    while (pos->next != NULL) {
-        if (pos->next == ) {
+
+    while (pos != NULL) {
+        if (pos->next == n) {
             //a b ——a x b 
 
         }

@@ -8,7 +8,6 @@ typedef struct SListNode
 {
 	SLDataType data;
 	struct SListNode *next;
-
 }SLNode;
 
 void SLPrint(SLNode* phead);
