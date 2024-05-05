@@ -1,4 +1,5 @@
 ﻿  SList.c
-  test.c
-  正在生成代码...
+E:\BITE\ccc\线性表\SLNode_test02\SLNode_test02\SList.c(1,1): warning C4828: 文件包含在偏移 0x173 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+E:\BITE\ccc\线性表\SLNode_test02\SLNode_test02\SList.c(19,12): warning C4098: “Find”:“void”函数返回值
+E:\BITE\ccc\线性表\SLNode_test02\SLNode_test02\SList.c(22,10): warning C4098: “Find”:“void”函数返回值
   SLNode_test02.vcxproj -> E:\BITE\ccc\线性表\SLNode_test02\x64\Debug\SLNode_test02.exe
