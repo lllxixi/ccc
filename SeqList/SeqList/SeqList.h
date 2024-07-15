@@ -30,7 +30,8 @@ void SLInsert(SL* sl, int pos, DataType x);
 void SLDelet(SL* sl, int pos);
 
 //²é£¬¸Ä
-void Find(SL sl, DataType x);
+int Find(SL sl, DataType x);
+void Revise(SL* sl, DataType x, DataType y);
 
 //´òÓ¡
 void Print(SL sl);
