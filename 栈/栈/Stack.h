@@ -1,6 +1,9 @@
 #pragma once
 #include<stdio.h>
+#include<stdlib.h>
+#include<stdbool.h>
 #include<assert.h>
+
 
 typedef int DataType;
 
@@ -21,7 +24,7 @@ void STPop(ST* pst);
 DataType StackTop(ST* pst);
 
 //判空
-bool STEmpty(Stack* pst);
+bool STEmpty(ST* pst);
 
 //获取数据个数
 int STSize(ST* pst);

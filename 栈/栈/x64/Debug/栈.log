@@ -1,0 +1,20 @@
+﻿  test.c
+E:\BITE\ccc\栈\栈\test.c(7,11): warning C4047: “函数”:“ST *”与“ST **”的间接级别不同
+E:\BITE\ccc\栈\栈\test.c(7,9): warning C4024: “STInit”: 形参和实参 1 的类型不同
+E:\BITE\ccc\栈\栈\test.c(9,11): warning C4047: “函数”:“ST *”与“ST **”的间接级别不同
+E:\BITE\ccc\栈\栈\test.c(9,9): warning C4024: “STPush”: 形参和实参 1 的类型不同
+E:\BITE\ccc\栈\栈\test.c(10,11): warning C4047: “函数”:“ST *”与“ST **”的间接级别不同
+E:\BITE\ccc\栈\栈\test.c(10,9): warning C4024: “STPush”: 形参和实参 1 的类型不同
+E:\BITE\ccc\栈\栈\test.c(11,11): warning C4047: “函数”:“ST *”与“ST **”的间接级别不同
+E:\BITE\ccc\栈\栈\test.c(11,9): warning C4024: “STPush”: 形参和实参 1 的类型不同
+E:\BITE\ccc\栈\栈\test.c(12,11): warning C4047: “函数”:“ST *”与“ST **”的间接级别不同
+E:\BITE\ccc\栈\栈\test.c(12,9): warning C4024: “STPush”: 形参和实参 1 的类型不同
+E:\BITE\ccc\栈\栈\test.c(14,20): error C2143: 语法错误: 缺少“)”(在“&”的前面)
+E:\BITE\ccc\栈\栈\test.c(14,20): error C2143: 语法错误: 缺少“;”(在“&”的前面)
+E:\BITE\ccc\栈\栈\test.c(14,22): error C2059: 语法错误:“)”
+E:\BITE\ccc\栈\栈\test.c(16,10): warning C4047: “函数”:“ST *”与“ST **”的间接级别不同
+E:\BITE\ccc\栈\栈\test.c(16,8): warning C4024: “STPop”: 形参和实参 1 的类型不同
+E:\BITE\ccc\栈\栈\test.c(17,10): warning C4047: “函数”:“ST *”与“ST **”的间接级别不同
+E:\BITE\ccc\栈\栈\test.c(17,8): warning C4024: “STPop”: 形参和实参 1 的类型不同
+E:\BITE\ccc\栈\栈\test.c(18,10): warning C4047: “函数”:“ST *”与“ST **”的间接级别不同
+E:\BITE\ccc\栈\栈\test.c(18,8): warning C4024: “STPop”: 形参和实参 1 的类型不同

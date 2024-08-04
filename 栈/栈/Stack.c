@@ -3,48 +3,68 @@
 
 
 void STInit(ST* pst) {
+	assert(pst);
+
 	pst->a = NULL;
 	pst->top = 0;//指向当前栈顶的下一个位置
 	pst->capacity = 0;
 }
 void STDestroy(ST* pst) {
-	free(a);
+	free(pst->a);
 	pst->a = NULL;
 	pst->top = pst->capacity = 0;
 }
 
 //入栈出栈
 void STPush(ST* pst, DataType x) {
-	////扩容
-	//if (pst->top == pst->capacity) {
-	//	newTemp = 
-	//}
+	//扩容
+	if (pst->top == pst->capacity) {
+		int newCapacity = pst->capacity == 0 ? 4 : pst->capacity * 2;
+		DataType* tmp = (DataType*)realloc(pst->a, newCapacity * sizeof(DataType));
+		if (tmp == NULL) {
+			perror("realloc fail");
+			return;
+		}
+
+		pst->a = tmp;
+		pst->capacity = newCapacity;
+	}
 	//插入
 	pst->a[pst->top] = x;
 	pst->top++;
 }
 
 void STPop(ST* pst) {
+
+	assert(pst);
+	assert(pst->top > 0);
 	pst->top--;
 }
 
 //取栈顶元素
 DataType StackTop(ST* pst) {
-	while (pst->top) {
-		printf("%d ", pst->a[ps->top]);
-		pst->top--;
-	}
+	//while (pst->top) {
+	//	printf("%d ", pst->a[pst->top]);
+	//	pst->top--;
+	//}
+	assert(pst);
+	assert(pst->top > 0);
+
+	return pst->a[pst->top - 1];
 }
 
 //判空
-bool STEmpty(Stack* pst) {
-	if (pst->top == 0) {
-		return;
-	}
+bool STEmpty(ST* pst) {
+
+	assert(pst);
+	return pst->top == 0;
+
 }
 
 //获取数据个数
 int STSize(ST* pst) {
+
+	assert(pst);
 	return pst->top;
 }
 
