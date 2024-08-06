@@ -21,7 +21,7 @@ void STPush(ST* pst, DataType x);
 void STPop(ST* pst);
 
 //È¡Õ»¶¥ÔªËØ
-DataType StackTop(ST* pst);
+DataType STTop(ST* pst);
 
 //ÅÐ¿Õ
 bool STEmpty(ST* pst);

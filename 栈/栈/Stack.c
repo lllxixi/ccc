@@ -10,6 +10,8 @@ void STInit(ST* pst) {
 	pst->capacity = 0;
 }
 void STDestroy(ST* pst) {
+	assert(pst);
+
 	free(pst->a);
 	pst->a = NULL;
 	pst->top = pst->capacity = 0;
@@ -17,6 +19,9 @@ void STDestroy(ST* pst) {
 
 //ÈëÕ»³öÕ»
 void STPush(ST* pst, DataType x) {
+
+	assert(pst);
+
 	//À©ÈÝ
 	if (pst->top == pst->capacity) {
 		int newCapacity = pst->capacity == 0 ? 4 : pst->capacity * 2;
@@ -38,11 +43,12 @@ void STPop(ST* pst) {
 
 	assert(pst);
 	assert(pst->top > 0);
+
 	pst->top--;
 }
 
 //È¡Õ»¶¥ÔªËØ
-DataType StackTop(ST* pst) {
+DataType STTop(ST* pst) {
 	//while (pst->top) {
 	//	printf("%d ", pst->a[pst->top]);
 	//	pst->top--;
